@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box sizing border box;
+}
+body {
+    background: white;
+    font-family: Oswald;
+    color: white;
+}
+.paper-rock-scissors_div {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background: #323838;
+   margin-bottom: 40px;
+}
+.choice {
+    background: ;
+    width: 1000px;
+    height: 250px;
+    margin: 250px auto auto auto;
+}
+.box {
+}
+button {
+    background: none;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    height:80%;
+    width:49%;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+button:hover {
+    border: 5px solid black;
+    border-radius: 10%; 
+}
+.right {
+    float: right;
+}
+.select {
+    margin: 0 auto;
+    width: 630px;
+    height: 250px;
+}
+.middle{
+margin-top: 10px;
+}
+.square {
+    margin: 1px;
+    height: 200px;
+    width: 200px;
+    float: left;   
+}
+.scissors {
+    cursor: pointer;
+    background: url(../icon/scissors.png);
+}
+.paper {
+    cursor: pointer;
+    background: url(../icon/paper.png);
+}
+.rock {
+    cursor: pointer;
+    background: url(../icon/rock.png);
+}
+.hover:hover {
+    background: ;
+    border: 5px solid black;
+    border-radius: 10%;
+}
+.position {
+
+}
+.stop {
+    width: 20%;
+    margin: 0 auto;
+    height: 20%;
+}
+.span:hover {
+    border: 1px solid black;
+    background: white;
+    color: black;
+    border-radius: 4px;
+}
+.color{
+    background: blue;
+}
+.score {
+    color: red;
+    margin: 0 auto;
+    border: 2px solid rgb(78, 91, 104);
+    text-align: center;
+    border-radius: 10px;
+    padding: 0 10px;
+    position: relative;
+    width: 260px;
+    height: 160px;
+    font-size: 95px;
+    margin-bottom: 30px;
+}
+.inside_span {
+    background: grey;
+    color: white;
+    font-size:15px;
+    padding: 2px 8px;
+}
+#user-label {
+    position: absolute;
+    top: 120px;
+    left: 75px;
+}
+#computer-label{
+    position: absolute;
+    top: 120px;
+    right: 72px;
+}
+/* #center {
+    background: grey;
+    color: white;
+    font-size:15px;
+    padding: 0 8px;
+    margin: 0 400px;
+} */
+
+.two-block {
+    width: 260px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+
+}
+.span {
+    margin-right: 10px;
+    text-transform: uppercase;
+    background: grey;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.left{ 
+    margin: 5px;
+}
